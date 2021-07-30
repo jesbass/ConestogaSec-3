@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>{{title}}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-    <!-- Yeti Bootstrap Theme From bootswatch.com -->
     <link rel='stylesheet' href='/stylesheets/bootstrap.min.css' />
-
-    <!-- A grey horizontal navbar that becomes vertical on small screens -->
-    <nav class="navbar navbar-expand-sm bg-light">
-      <!-- Links -->
-      <ul class="navbar-nav">
-        <a class="navbar-brand" href="/">Express Tracker</a>
-        <li class="nav-item">
-          <a class="nav-link" href="/about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/users">Users</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/projects/index">Projects</a>
-        </li>
-      </ul>
-    </nav>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
+    <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container px-5">
+                <a class="navbar-brand fw-bold" href="#page-top">Jesus Cuevas</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#skill">Skill</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#work">Work</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Mashead header-->
     {{{body}}}
+        <!-- Footer-->
+        
   </body>
 </html>
