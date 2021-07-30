@@ -2,6 +2,7 @@
 <p>Welcome to {{title}}</p>
 <p>This is our Static View</p>
 <p>This is our Project</p>-->
+<section id="about">
     <div class="container px-0" style="background-image: url(/images/top2.jpeg);background-position: center;background-size: cover;height:300px;">
         <!--<div class="row gx-5 align-items-center">-->
             <div class="col-lg-12">
@@ -12,18 +13,31 @@
                     <br>
                     <br>
                     
-                    <h1 style="color: white; text-align: center;">Jesus Cuevas</h3>
-                    <h2 style="color: white; text-align: center;">Software Developer</h3>
-                    <br>
-                    <p style="color: white; text-align: center;">Enthusiastic software engineer with more than 10 years of experience </p>
-                    <p style="color: white; text-align: center;">Passionate about building modern world class applications with technologies such as ASP .NET, C#, SQL Server, and JavaScript</p>
+                    <h1 class="px-5" style="color: white; text-align: right; "><b>Jesus Cuevas</b></h1>
+                    <h2 class="px-5" style="color: white; text-align: right;"><b>Software Developer</b></h2>
                     <br>
                     <br>
-                    
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
                 </div>
             </div>
         <!--</div>-->
     </div>
+    <br>
+    <br>
+    <br>
+    <div class="container px-5" style="background-image: url(/images/full-stack2.jpg);background-position: center;background-size: cover; height:200px;">
+        <br>
+        <div class="col-lg-8" >
+            <h2 style="color: white;">About me</h2> 
+            <p style="color: white; text-align: justify; font-size:medium;">Enthusiastic software engineer with more than 10 years of experience participating in the development of products through the software lifecycle, from requirements definition through successful deployment. Passionate about building modern world class applications with technologies such as ASP .NET, C#, SQL Server, and JavaScript. Experience and expertise in project management, logistics, and process optimization. High self-learning ability in a short time, easy adaptation to different working environments, and permanent spirit of improvement</p>
+        </div>
+        <!--<p style="color: white; text-align: center;">Passionate about building modern world class applications with technologies such as ASP .NET, C#, SQL Server, and JavaScript</p>-->
+    </div>
+</section>
 <!--</header>-->
 
         <br>
@@ -139,14 +153,34 @@
             </div>
         </section>
 
-        <section id="contact" style="background-color: #a9a9a9;">
+        <section id="contact" style="background-color: #333333;">
             <div class="container px-5" style="text-align: center;">
-                <h2 class="display-7 lh-1 mb-4">Contact Me</h2>
+                <br>
+                <h2 class="px-5" style="text-align: center; color: white;">Contact Me</h2>
             </div>
-            <div class="bd-example">
-                <div class="d-flex justify-content-center bd-highlight mb-3">
-                    
+            <br>
+            <div class="row">
 
+            
+            <div class="col-lg-6" >
+                <div class="px-5">
+                    <div class="row">
+                        <div class="col-lg-3" >
+                            <img width="95" height="95" src="/images/jesbass.jpeg">
+                        </div>
+                        <div class="col-lg-9" >
+                            <h4 style="color:white">Jesus Cuevas</h4>
+                            <p style="color:white; text-align:justify">Full Stack Web Developer in Waterloo, Ontario. Bass Guitar Player. Lover of Animals, Sports, and Photograpy.</p>
+                            
+                        </div>
+                    </div>
+                    <br>
+                    <a href="https://www.linkedin.com/in/jesbass/" target="_blank"><img width="32" height="32" src="/images/linkedin.png" style="margin-left: 10px;"></a>
+                    <a href="https://github.com/jesbass" target="_blank"><img width="32" height="32" src="/images/git.png" style="margin-left: 10px;"></a>
+                </div>
+            </div>
+            <div class="col-lg-6" >
+                <div class="px-5">
                     <div class="p-2">
                         <form id="subscribeForm">
                             <div class="form-group">
@@ -161,11 +195,14 @@
                                     <textarea class="form-control" id="text" name="text" rows="3" placeholder="Message"></textarea>
                                 </div>
                                 <br>
-                                
+                                <div id="captcha" class="g-recaptcha" data-sitekey="6Lc40LobAAAAAPNoZ-ZXqlotmG7Vx5D5J__UVHSx"></div>
                                 <br>
                                 <button type="submit" class="btn btn-primary px-4 rounded-pill">Submit</button>
+                                <br>
+                                <br>
                         </form>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
